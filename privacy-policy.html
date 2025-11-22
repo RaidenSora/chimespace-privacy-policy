@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ChimeSpace — Privacy Policy</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg: #06070A;
+      --card: #11121A;
+      --ink: #E6E8EF;
+      --muted: #9AA2B5;
+      --accent: #3B82F6;
+      --border: #1F2433;
+      --code: #0B0D14;
+      --shadow: 0 10px 28px rgba(0,0,0,.45);
+      --radius: 16px;
+      --maxw: 780px;
+    }
+
+    html,body{
+      height:100%;
+      background: var(--bg);
+      color: var(--ink);
+      margin:0;
+      font: 16px/1.6 "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    .wrap{
+      max-width: var(--maxw);
+      margin: clamp(24px, 6vh, 72px) auto;
+      padding: clamp(16px, 3vw, 28px);
+    }
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,0)) , var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(20px, 4vw, 44px);
+    }
+
+    header h1{
+      font-size: clamp(22px, 4.2vw, 32px);
+      line-height: 1.2;
+      margin: 0 0 6px 0;
+      letter-spacing: .2px;
+    }
+
+    .sub{
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: clamp(18px, 3vw, 28px);
+    }
+
+    h2{
+      font-size: clamp(16px, 3.2vw, 20px);
+      line-height: 1.25;
+      margin: 26px 0 10px;
+      letter-spacing: .2px;
+    }
+
+    p{ margin: 10px 0 14px; }
+
+    ul{
+      margin: 8px 0 18px 0;
+      padding-left: 1.25rem;
+    }
+    li{ margin: 6px 0; }
+
+    a{
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px dashed rgba(59,130,246,.45);
+    }
+    a:hover{ border-bottom-style: solid; }
+
+    .note{
+      background: var(--code);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    footer{
+      margin-top: 26px;
+      color: var(--muted);
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .kbd{
+      padding: 2px 6px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: #0f121d;
+      font-size: 11px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card" role="article" aria-labelledby="pp-title">
+      <header>
+        <h1 id="pp-title">Privacy Policy for ChimeSpace</h1>
+        <div class="sub">Effective Date: <strong>November 22, 2025</strong></div>
+      </header>
+
+      <section>
+        <p><strong>ChimeSpace</strong> (“the App”, “we”, “us”) is a personal ambient sound mixer that helps you layer calming audio loops for focus, rest, or creativity. This Privacy Policy explains what information we collect, how it is used, and the choices you have when using the Android version of ChimeSpace.</p>
+      </section>
+
+      <section>
+        <h2>1) Information We Collect</h2>
+        <ul>
+          <li><strong>Account &amp; Profile Data:</strong> When you sign in with Google we receive your basic profile details (name, email address, Google user ID, and optional profile photo URL) plus a Firebase user identifier. We also generate a one-letter avatar and store a color swatch to display inside the app. We never have access to your Google password.</li>
+          <li><strong>Guest Sessions:</strong> If you continue as a guest we do not create a cloud profile. Active sound selections, timers, and volumes stay on the device memory only until you close the app or start a new session.</li>
+          <li><strong>Saved Sound Mixes &amp; Preferences:</strong> Signed-in users can save mixes that include the mix name, the IDs of each sound, the individual volume values, the master volume, and the timestamp of creation or update.</li>
+          <li><strong>Listening Activity:</strong> When playback stops we store a listening-session entry with the start and end time, session duration, the active sound IDs, mix ID and name (if used), and the associated volume values. This fuels your streak counter, charts, and reminders.</li>
+          <li><strong>Support &amp; Communications:</strong> If you email us or submit feedback through an app store we receive the contact details you provide and the contents of that message.</li>
+          <li><strong>Diagnostics &amp; Device Information:</strong> Firebase and the mobile operating system may provide anonymized crash reports, device model, OS version, and performance metrics that help us troubleshoot reliability issues.</li>
+        </ul>
+        <p>ChimeSpace does <strong>not</strong> record microphone audio, track precise location, collect payment information, or capture government IDs.</p>
+      </section>
+
+      <section>
+        <h2>2) How We Use Information</h2>
+        <ul>
+          <li>Authenticate you through Firebase Authentication and keep your session active across launches.</li>
+          <li>Sync your saved mixes, avatar color, and listening history so they remain available on any device that uses the same account.</li>
+          <li>Provide features such as listening streaks, stats, background playback, and playback controls in the notification shade.</li>
+          <li>Respond to support requests and communicate important changes to the service.</li>
+          <li>Monitor aggregate usage patterns to detect abuse, maintain stability, and comply with legal requirements.</li>
+        </ul>
+        <p>We do not sell or rent your personal data.</p>
+      </section>
+
+      <section>
+        <h2>3) Data Storage &amp; Security</h2>
+        <ul>
+          <li>Cloud data lives in Google Cloud Firestore (project <code>chimespace-jrq</code>) and benefits from Google’s encryption at rest and TLS in transit.</li>
+          <li>Authentication is handled by Firebase Authentication and Google Sign-In; credentials are stored by Google and exchanged using secure tokens.</li>
+          <li>Access to production databases is restricted to the ChimeSpace team for maintenance, support, or legal compliance.</li>
+          <li>Locally cached sound assets and preferences remain inside the app’s private storage and inherit the protections (PIN, biometrics, device encryption) you configure on Android.</li>
+        </ul>
+        <p class="note">Guest sessions stay on your device. When you choose “Delete account” in the profile sheet we invoke Firebase’s deletion APIs to remove your user profile, saved mixes, listening history, and avatar color. Google Cloud’s managed backups may retain encrypted copies for a short period (typically up to 30 days) before they are purged.</p>
+      </section>
+
+      <section>
+        <h2>4) Permissions &amp; Device Access</h2>
+        <ul>
+          <li><strong>Notifications (Android 13+):</strong> Requested only to show playback controls and timer updates while audio runs in the background. We never send promotional pushes.</li>
+          <li><strong>Audio Output:</strong> The app plays bundled audio loops through your speakers or connected audio devices. We do not access or record microphone input.</li>
+          <li><strong>Local Storage:</strong> ChimeSpace stores bundled sound files and lightweight preferences in its private directory so mixes load quickly even offline.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5) Sharing &amp; Third Parties</h2>
+        <ul>
+          <li><strong>Firebase Authentication (Google LLC):</strong> manages user accounts, multi-session tokens, and optional anonymous sign-in.</li>
+          <li><strong>Firebase Cloud Firestore (Google LLC):</strong> stores saved mixes, listening sessions, and avatar metadata so they stay in sync.</li>
+          <li><strong>Google Sign-In:</strong> provides the Google account picker and shares your profile basics with us after you consent.</li>
+          <li><strong>Operating Systems &amp; App Stores:</strong> Google Play and Android may share anonymized crash diagnostics and install metrics to help us resolve issues.</li>
+        </ul>
+        <p>We only disclose data when required by law, to respond to lawful requests, or to protect the rights, safety, or property of our users and the ChimeSpace team.</p>
+      </section>
+
+      <section>
+        <h2>6) Data Retention &amp; Your Choices</h2>
+        <ul>
+          <li>You can continue as a guest at any time; no cloud profile or long-term listening history is created.</li>
+          <li>Signing out stops new sessions from being logged to the cloud, though previously stored data stays attached to your account until it is deleted.</li>
+          <li>Use the “Delete account” option in the profile sheet to erase your saved mixes, listening history, and Firebase user profile. Contact us if you would like a copy of your data before deletion.</li>
+          <li>Email us to access, correct, or export the information associated with your account, or to request that we remove additional data.</li>
+          <li>You can revoke notification access from Android Settings without affecting audio playback, and you may uninstall the app at any time to remove local caches.</li>
+        </ul>
+        <p>We retain account data only while the account is active or as needed to meet legal obligations. We may periodically remove inactive accounts to keep the service lean.</p>
+      </section>
+
+      <section>
+        <h2>7) Children’s Privacy</h2>
+        <p>ChimeSpace is designed for general audiences but is not directed to children under 13 (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child provided personal data without parental consent, contact us and we will promptly delete it.</p>
+      </section>
+
+      <section>
+        <h2>8) International Data Transfers</h2>
+        <p>Your information may be processed and stored in the United States or other countries where Google maintains data centers. Google Cloud relies on Standard Contractual Clauses and other safeguards to legitimize these transfers. By using the App you understand that your data may be transferred to jurisdictions with different data-protection rules.</p>
+      </section>
+
+      <section>
+        <h2>9) Changes to This Policy</h2>
+        <p>We may update this Privacy Policy as the App evolves. When we make material changes we will refresh the Effective Date above and highlight the update inside the release notes or in-app. Continued use of ChimeSpace after the changes take effect means you accept the revised Policy.</p>
+      </section>
+
+      <section>
+        <h2>10) Contact Us</h2>
+        <p>Questions, privacy requests, or deletion confirmations can be sent to <a href="mailto:quimorajoepetryan@gmail.com">quimorajoepetryan@gmail.com</a>.</p>
+      </section>
+
+      <footer>
+        <span class="kbd">ChimeSpace v1.0.0+1</span>
+        <span>•</span>
+        <span>Last updated: November 22, 2025</span>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
